@@ -11,7 +11,7 @@ const result = text.replace(/;/g, ";\n");
 const substring = result.replace(/\s/g, "");
 
 // 4. Извлеките подстроку из переменной result, начиная с 28-го символа и до 50-го символа (не включая)
-const newText = result.slice(28, 50);
+const newText = result.substring(27, 50);
 
 // 5. Замените в извлеченной подстроке (newText) все вхождения слова клён на дубе
 const replacedText = newText.replace(/клён/g, "дубе");
